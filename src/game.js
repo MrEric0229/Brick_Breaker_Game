@@ -82,7 +82,7 @@ export default class Game {
     ctx.fillStyle = "#FE2D00";
     ctx.textAlign = "center";
     ctx.fillText(
-      "Level " + this.currentLevel + "  Life: " + this.life,
+      "Level " + (this.currentLevel+1) + "  Life: " + this.life,
       this.gameWidth / 2,
       30
     );
